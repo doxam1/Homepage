@@ -127,9 +127,28 @@ header {
    
 
     & .square {
-      background-color: blue;
+      //background-color: blue;
       min-width: calc(1rem * 10);
       min-height: calc(1.5rem * 10);
+      box-shadow: .5px .5px 4px .5px black;
+
+      & .projectScreenShot {     
+        & img {
+          max-width: 100%;
+        }
+      }
+
+      & .projectTitleAndLinks { //change the links to icon and make them linkable.
+        padding: 1rem;
+        padding-bottom: 0;
+        display:flex;
+        max-width: 100%;
+        justify-content: space-between;
+      }
+
+      & .aboutTheProject {
+        padding: .2rem;
+      }
     }
   }
 }
