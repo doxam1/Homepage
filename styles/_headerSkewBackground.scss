@@ -2,10 +2,10 @@
 // it's also doing the shine effect when hover.
 
 .topBackgroundColor {
-    position: absolute;
+    position: relative;
     z-index: -1001;
     height: 200px;
-    width: 120%;
+  //    width: 120%;
     top: 0;
     background: linear-gradient(to right, rgb(144, 144, 255), rgb(139, 247, 247));
     transform: skewY(-7deg);
